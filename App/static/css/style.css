@@ -1,0 +1,30 @@
+html,
+body{
+    height: 100%;
+    margin:0;
+    max-width: 100%;
+}
+
+.wrapper {
+    min-height: 100%;
+    margin-bottom:  -50px;
+}
+#footer,
+.push{
+    height: 50px;
+}
+
+/* Input Search */
+.dataTables_filter{
+    margin-bottom: 10px !important;
+    display: none !important;
+}
+/* Show entries */
+.dataTables_length{
+    float:right !important;
+    margin-top:10px !important;
+}
+/* Group Buttons */
+.dt-buttons{
+    margin-bottom: 10px !important;
+}
